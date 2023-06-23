@@ -1,0 +1,256 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.font-link {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h1 {
+  background-color: '#400';
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the container height to 100% of the viewport height */
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6fe;
+  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 8px;
+}
+
+
+.form-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-row {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.submit-button {
+  display: inline-block;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #55f0a7;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 20px;
+  text-decoration: none;
+  text-align: center;
+  width: 120px;
+}
+
+
+.submit-button:hover {
+  background-color: #55e0a7;
+}
+
+.link {
+  display: inline-block;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #55f0a7;
+  color: #fff;
+  font-weight: bold;
+  padding-top: 14px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  width: 120px;
+}
+
+.link:hover {
+  background-color: #55e0a7;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #4a4a4a;
+}
+
+.summary-table {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+.summary-table th,
+.summary-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+
+}
+
+.summary-table th {
+  background-color: #f6f6fe;
+  width: 20%;
+  color: #4a4a4a;
+}
+
+.summary-table td {
+  background-color: #ffffff;
+}
+
+.submission-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  margin-bottom: 20px;
+}
+
+.submissions-table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 20px;
+}
+
+.submissions-table th,
+.submissions-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.submissions-table th {
+  font-weight: bold;
+  background-color: #f6f6fe;
+}
+
+.submissions-table td {
+  background-color: #ffffff;
+  width: 15%;
+}
+
+.action-button {
+  display: inline-block;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #7e91e5;
+  color: #fff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 20px;
+  text-decoration: none;
+  text-align: center;
+  width: 120px;
+  margin: 2px;
+}
+
+.view-image {
+  display: inline-block;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #e4d5b7;
+  color: #fff;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 20px;
+  text-decoration: none;
+  text-align: center;
+  width: 120px;
+  margin: 2px;
+}
+
+p {
+  margin-bottom: 33px;
+}
+
+.error-message {
+  color: #d00;
+  font-size: 15px;
+}
+
+.file-input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.file-input {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.file-input-label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e6e6e6;
+  color: #4a4a4a;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-right: 12px;
+  height: 25px;
+}
+
+.image-path {
+  padding-top: 5px;
+
+}
+
+.file-input-label:hover {
+  background-color: #ccc;
+}
+
+
+
